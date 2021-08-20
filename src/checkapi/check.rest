@@ -1,0 +1,30 @@
+###
+
+POST http://localhost:3000/products
+Content-Type: application/json
+
+{
+    "name": "radio",
+    "photo": "radio.jpg",
+    "price": 52
+
+}
+
+###
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "user": "JESUS",
+    "password": "hola"
+}
+
+###
+PUT http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "user": "JESUSasdfj",
+    "password": "holas"
+}
+
